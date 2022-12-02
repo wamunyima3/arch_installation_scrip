@@ -16,17 +16,21 @@
 
     it will encourage me to advance it or even write more scripts to automate different defficult stuff in linux
 '
-select option in nonEFI EFI EFIincription
+select option in nonEFI EFI EFIincription Quit_installation
     do
         case $option in
             nonEFI)
-                echo "nonEFI selected";;
+                echo "nonEFI selected";
+                break;;
             EFI)
-                echo "EFI selected";;
+                echo "EFI selected";
+                break;;
             EFIincription)
-                echo "EFI selected";;
+                echo "EFI selected";
+                break;;
+            Quit_installation)
+                break;;
             *)
                 echo "Inalid choice";;
         esac
     done
-    
